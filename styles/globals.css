@@ -1,26 +1,79 @@
-html,
-body {
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
-  color: inherit;
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-@media (prefers-color-scheme: dark) {
+/* Google Map Styles */
+/* .map {
+  position: relative;
+  padding-bottom: 40%;
+  height: 0;
+  overflow: hidden;
+}
+
+.map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+} */
+
+/* Active Bullets Styles */
+.swiper-pagination-bullet {
+  margin: 0 0.5rem !important;
+  width: 1rem !important;
+  height: 1rem !important;
+  transition-duration: 300ms;
+}
+
+.swiper-pagination-bullet-active {
+  background: white !important;
+  scale: 1.5;
+}
+
+.swiper-slide-prev,
+.swiper-slide-next {
+  filter: blur(4px);
+}
+
+/* Responsive Font Sizes */
+
+@media screen and (max-width: 991px) {
   html {
-    color-scheme: dark;
+    font-size: 13.5px;
   }
-  body {
-    color: white;
-    background: black;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 12.5px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  html {
+    font-size: 10.5px;
   }
 }
