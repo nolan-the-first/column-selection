@@ -314,9 +314,17 @@ export default function Home({ accounts_1, accounts_2 }) {
         })}
       </div>
       {/* Loading Circle */}
-      {isSending && <Loading />}
+      {isSending &&<span className="w-8 aspect-square rounded-full border-2 border-l-0 border-skyBlue absolute top-4 left-4 animate-spin" />}
       {/* Correctly Sent Notification */}
-      {isSentCorrectly && <CorrectlySentNotification />}
+      {isSentCorrectly &&   <div
+      className="absolute top-6 right-6 animate-fadeInLeft p-6 text-xl font-bold bg-green rounded-xl"
+      style={{
+        animationTimingFunction: "ease-out",
+        animationDuration: "500ms",
+      }}
+    >
+      Sent Correctly !!
+    </div>}
     </div>
   );
 }
