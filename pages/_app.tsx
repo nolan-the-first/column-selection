@@ -23,9 +23,9 @@ function MyApp({ Component, pageProps }) {
   return (
     <AppContext.Provider value={globalInfo}>
       <main>
-        <Header />
+        {/* <Header /> */}
         <Component {...pageProps} />
-        <Footer />
+        {/* <Footer /> */}
       </main>
     </AppContext.Provider>
   );

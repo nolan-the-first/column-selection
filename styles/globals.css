@@ -24,40 +24,6 @@ ul {
   margin: 0;
 }
 
-/* Google Map Styles */
-/* .map {
-  position: relative;
-  padding-bottom: 40%;
-  height: 0;
-  overflow: hidden;
-}
-
-.map iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100% !important;
-  height: 100% !important;
-} */
-
-/* Active Bullets Styles */
-.swiper-pagination-bullet {
-  margin: 0 0.5rem !important;
-  width: 1rem !important;
-  height: 1rem !important;
-  transition-duration: 300ms;
-}
-
-.swiper-pagination-bullet-active {
-  background: white !important;
-  scale: 1.5;
-}
-
-.swiper-slide-prev,
-.swiper-slide-next {
-  filter: blur(4px);
-}
-
 /* Responsive Font Sizes */
 
 @media screen and (max-width: 991px) {

@@ -12,6 +12,11 @@ module.exports = {
       black: "black",
       gray: "#221F1F",
       none: "transperant",
+      darkblue: "#03001C",
+      violet: "#301E67",
+      lightBlue: "#5B8FB9",
+      skyBlue: "#B6EADA",
+      green: "#32CD32",
     },
     fontFamily: {
       janna: ["var(FontVariable)", ...fontFamily.sans],
