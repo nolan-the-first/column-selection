@@ -253,7 +253,7 @@ export default function Home({ accounts_1, accounts_2 }) {
           return (
             <div
               key={i}
-              className={`group relative bg-lightBlue text-center py-2 px-4 font-medium text-xl rounded-md select-none duration-100 border-4 border-skyBlue border-opacity-0 hover:border-opacity-100 animate-fadeInRight opacity-0 ${
+              className={`group relative bg-lightBlue text-center py-2 px-6 font-medium text-xl rounded-md select-none duration-100 border-4 border-skyBlue border-opacity-0 hover:border-opacity-100 animate-fadeInRight opacity-0 ${
                 column1Data?.id == id && "border-opacity-100"
               }`}
               style={{ animationDelay: `${i * 100}ms` }}
@@ -288,7 +288,7 @@ export default function Home({ accounts_1, accounts_2 }) {
           return (
             <div
               key={i}
-              className={`group relative bg-lightBlue text-center py-2 px-4 font-medium text-xl rounded-md select-none duration-100 border-4 border-skyBlue border-opacity-0 hover:border-opacity-100 animate-fadeInLeft opacity-0 ${
+              className={`group relative bg-lightBlue text-center py-2 px-6 font-medium text-xl rounded-md select-none duration-100 border-4 border-skyBlue border-opacity-0 hover:border-opacity-100 animate-fadeInLeft opacity-0 ${
                 column2Data?.id == id && "border-opacity-100"
               }`}
               style={{ animationDelay: `${i * 200}ms` }}
