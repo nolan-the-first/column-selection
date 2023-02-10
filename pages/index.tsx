@@ -6,7 +6,6 @@ import { calculateHypotenuse, calculateAngleFromSin } from "../utils/Math";
 // Components
 import Loading from "../Components/Common/Loading";
 import CorrectlySentNotification from "../Components/Common/CorrectlySentNotification";
-import { StraightLine } from "react-drawline";
 // Types
 import { Accounts, lineCoordinates } from "../public/Assets/Types/types";
 import { GetServerSideProps } from "next";
